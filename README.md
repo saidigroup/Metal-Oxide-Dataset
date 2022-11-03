@@ -12,3 +12,4 @@ The surface dataset directory structure is: <br>
 <br>
 The thermal expansion dataset directory structure is: <br>
 [iteration #] -- [% lattice expansion/contraction] -- [temperature in Kelvin]
+![image](https://user-images.githubusercontent.com/51385062/199827439-3f1a17f1-7c7f-480b-8142-4d81292864d6.png)
