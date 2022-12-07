@@ -1,7 +1,11 @@
 # Metal-Oxide-Dataset
 Supporting Data for the Metal Oxide MLP
 
-
+The dataset consist of the *.raw and *.npy files. The former is a text file and the latter is a binary Numpy file. <br>
+The *.pb file is the pre-prepared potential file. The details on the software packages utilizing this potential and the generation of it can be found in our publication. This will be added once it is publicly available <br>
+<br>
+The dataset can be turned into a human readable format through Numpy.
+<br>
 For bulk potentials the directory structure is:<br>
 [iteration #] -- [Materials Project Structure ID] -- [cell size] -- [temperature in Kelvin] <br>
 <br>
