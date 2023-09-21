@@ -1,6 +1,12 @@
 # Metal-Oxide-Dataset
 Supporting Data for the Metal Oxide MLP
-
+<br><br>
+If you use this dataset, please cite: <br>
+https://doi.org/10.1021/acs.jpclett.2c03445
+<br><br>
+If you use the MgO melting dataset (liquid and solid-liquid MgO), please also cite:<br>
+https://doi.org/10.1021/acs.jpclett.3c02424
+<br><br>
 The dataset consist of the *.raw and *.npy files. The former is a text file and the latter is a binary Numpy file. <br>
 The *.pb file is the pre-prepared potential file. The details on the software packages utilizing this potential and the generation of it can be found in our publication. This will be added once it is publicly available <br>
 <br>
