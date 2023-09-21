@@ -21,7 +21,7 @@ The surface dataset directory structure is: <br>
 [iteration #] -- [surface orientation] -- [surface thickness] -- [surface area] -- [temperature in Kelvin] <br>
 <br>
 The thermal expansion dataset directory structure is: <br>
-[iteration #] -- [% lattice expansion/contraction] -- [temperature in Kelvin]
+[iteration #] -- [% lattice expansion/contraction] -- [temperature in Kelvin] <br>
 <br>
 The MgO melting dataset file structure is listed under /data/dataset_list for ease of use.
 <br>
