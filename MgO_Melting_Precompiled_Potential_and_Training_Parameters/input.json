@@ -1,0 +1,79 @@
+{
+    "training": {
+        "seed": 219299232323293,
+        "stop_batch": 3000000,
+        "disp_freq": 2000,
+        "numb_test": 10,
+        "save_freq": 10000,
+        "disp_file": "lcurve.out",
+        "save_ckpt": "model.ckpt",
+        "disp_training": true,
+        "time_training": true,
+        "profiling": false,
+        "profiling_file": "timeline.json",
+        "training_data": {
+            "systems": [
+//fill with path to dataset files
+            ],
+            "set_prefix": "set",
+	    "batch_size":"auto"
+        }
+    },
+    "learning_rate": {
+        "type": "exp",
+        "decay_steps": 1000,
+        "start_lr": 0.001,
+        "stop_lr": 3.51e-8
+    },
+    "loss": {
+        "start_pref_e": 1,
+        "limit_pref_e": 1,
+        "start_pref_f": 10000,
+        "limit_pref_f": 10000,
+        "start_pref_v": 10,
+        "limit_pref_v": 10
+    },
+    "model": {
+        "type_map": [
+            "Mg",
+            "O"
+        ],
+        "descriptor": {
+            "type": "se_a",
+            "sel": [
+                140,
+                140
+            ],
+            "rcut_smth": 2.0,
+            "rcut": 7.0,
+            "neuron": [
+                25,
+                50,
+                100
+            ],
+            "resnet_dt": false,
+            "axis_neuron": 16,
+            "activation_function": "tanh",
+            "type_one_side": false,
+            "precision": "float64",
+            "trainable": true,
+            "exclude_types": [],
+            "set_davg_zero": false,
+            "seed": 3784085567
+        },
+        "fitting_net": {
+            "neuron": [
+                240,
+                240,
+                240
+            ],
+            "resnet_dt": true,
+            "activation_function": "tanh",
+            "precision": "float64",
+            "trainable": true,
+            "rcond": 0.001,
+            "atom_ener": [],
+            "seed": 1503197299
+        }
+    }
+}
